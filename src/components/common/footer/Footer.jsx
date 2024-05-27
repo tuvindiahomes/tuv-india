@@ -12,7 +12,12 @@ const Footer = () => {
               <h1>Do You Have Questions ?</h1>
               <p>We'll help you to grow your career and growth.</p>
             </div>
-            <button className='btn5'>Contact Us Today</button>
+            <div className='button flex'>
+            <a href='tel:+919711671152' className='btn1'>
+              <i className='fa fa-phone'></i>
+              &nbsp;Call Us
+            </a>
+          </div>
           </div>
         </div>
       </section>

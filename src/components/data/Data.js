@@ -4,6 +4,10 @@ export const nav = [
     path: "/",
   },
   {
+    text: "properties",
+    path: "/properties",
+  },
+  {
     text: "about",
     path: "/about",
   },
@@ -11,10 +15,6 @@ export const nav = [
     text: "services",
     path: "/services",
   },
-  // {
-  //   text: "blog",
-  //   path: "/blog",
-  // },
   // {
   //   text: "pricing",
   //   path: "/pricing",
@@ -109,25 +109,27 @@ export const list = [
 ]
 export const awards = [
   {
-    icon: <i class='fa-solid fa-trophy'></i>,
-    num: "32 M	",
-    name: "Blue Burmin Award",
+    // icon: <i class='fa-solid fa-trophy'></i>,
+    icon: <i class='fa fa-phone'></i>,
+    num: "+12-1200 120 1200",
+    name: "Landline",
   },
   {
-    icon: <i class='fa-solid fa-briefcase'></i>,
-    num: "43 M",
-    name: "Mimo X11 Award",
+    // icon: <i class='fa-solid fa-briefcase'></i>,
+    icon: <i class='fa fa-phone'></i>,
+    num: "+91-971-167-1152",
+    name: "Mobile",
   },
-  {
-    icon: <i class='fa-solid fa-lightbulb'></i>,
-    num: "51 M",
-    name: "Australian UGC Award",
-  },
-  {
-    icon: <i class='fa-solid fa-heart'></i>,
-    num: "42 M",
-    name: "IITCA Green Award",
-  },
+  // {
+  //   icon: <i class='fa-solid fa-lightbulb'></i>,
+  //   num: "51 M",
+  //   name: "Australian UGC Award",
+  // },
+  // {
+  //   icon: <i class='fa-solid fa-heart'></i>,
+  //   num: "42 M",
+  //   name: "IITCA Green Award",
+  // },
 ]
 export const location = [
   {
