@@ -1,6 +1,15 @@
 .about {
   margin-bottom: 80px;
 }
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.address {
+  text-align: center;
+  max-height: 370px;
+}
 .about .heading {
   text-align: left;
   width: 100%;
@@ -12,6 +21,7 @@
   margin-bottom: 20px;
   line-height: 30px;
 }
+
 @media screen and (max-width: 768px) {
   .about .container {
     flex-direction: column;

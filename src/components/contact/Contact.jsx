@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./contact.css"
+import ScrollToTopOnMount from "../common/ScrollToTopOnMount.jsx";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -59,8 +60,9 @@ const Contact = () => {
   };
 
   return (
+  <>
+    <ScrollToTopOnMount />
     <section className='contact mb'>
-      
       <div className='container'>
         <form className='shadow' onSubmit={handleSubmit}>
           <h4>End up your search. Step into a new home.</h4> <br />
@@ -95,6 +97,7 @@ const Contact = () => {
         </form>
       </div>
     </section>
+  </>
   );
 };
 

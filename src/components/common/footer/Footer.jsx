@@ -5,22 +5,6 @@ import "./footer.css"
 const Footer = () => {
   return (
     <>
-      <section className='footerContact'>
-        <div className='container'>
-          <div className='send flex'>
-            <div className='text'>
-              <h1>Do You Have Questions ?</h1>
-              <p>We'll help you to grow your career and growth.</p>
-            </div>
-            <div className='button flex'>
-            <a href='tel:+919711671152' className='btn1'>
-              <i className='fa fa-phone'></i>
-              &nbsp;Call Us
-            </a>
-          </div>
-          </div>
-        </div>
-      </section>
 
       <footer>
         <div className='container'>
