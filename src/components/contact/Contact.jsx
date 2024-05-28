@@ -64,6 +64,7 @@ const Contact = () => {
       <div className='container'>
         <form className='shadow' onSubmit={handleSubmit}>
           <h4>End up your search. Step into a new home.</h4> <br />
+          <div class="input-container">
           <input
             type='text'
             name='name'
@@ -71,6 +72,8 @@ const Contact = () => {
             value={formData.name}
             onChange={handleChange}
           />
+          </div>
+          <div>
           <input
             type='text'
             name='mobile_number'
@@ -78,6 +81,8 @@ const Contact = () => {
             value={formData.mobile_number}
             onChange={handleChange}
           />
+          </div>
+          <div>
           <input
             type='text'
             name='location'
@@ -85,6 +90,7 @@ const Contact = () => {
             value={formData.location}
             onChange={handleChange}
           />
+          </div>
           <button type='submit'>Submit</button>
         </form>
       </div>

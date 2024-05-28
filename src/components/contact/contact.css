@@ -1,5 +1,6 @@
 .contact form div {
-  display: flex;
+  display: block;
+  margin-bottom: 20px;
 }
 .contact textarea {
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -7,9 +8,17 @@
   border-radius: 5px;
   margin-bottom: 20px;
 }
-.contact input {
+.contact form .input-container {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 20px;
-  margin-right: 10px;
+}
+.contact form input {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 8px;
 }
 .contact form {
   padding: 30px;
