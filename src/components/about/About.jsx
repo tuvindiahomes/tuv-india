@@ -36,22 +36,8 @@ const About = () => {
       <section className='services mb'>
       {/* <Back name='Connect With US' title='Fill out this form' cover={imgForm} /> */}
       <Awards/>
-      <section className='awards padding'>
-        <div className='container'>
-          <Heading title='Reach Us At' subtitle='OR' />
-          <div className='content grid4 mtop'>
-            <div className='box'>
-              <div className='icon'>
-                <i class='fa fa-address-card'></i>
-              </div>
-              <h1>TUV INDIA HOMES</h1>
-              <p>T3-A1604, NX-ONE, Greater Noida West</p>
-            </div>
-          </div>
-        </div>
-      </section>
       <div className='featured container'>
-      <Heading title='Connect with us' subtitle='Fill out this form'/>
+      <Heading title='Connect with us' subtitle='Fill out this form. Our representatives will call you very shortly.'/>
         <Contact />
       </div>
       </section>

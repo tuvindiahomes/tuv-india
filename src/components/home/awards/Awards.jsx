@@ -22,9 +22,9 @@ const Awards = () => {
           <div className='content grid4 mtop'>
             <div className='box'>
               <div className='icon'>
-                <a href = 'tel:+1212001201200'><i class='fa fa-phone'></i></a>
+                <a href = 'tel:+911206052476'><i class='fa fa-phone'></i></a>
               </div>
-              <h1>+12-1200-120-1200</h1>
+              <h1>+91-120-6052-476</h1>
               <p>Landline</p>
             </div>
             <div className='box'>
@@ -36,17 +36,10 @@ const Awards = () => {
             </div>
             <div className='box'>
               <div className='icon'>
-                <a href = 'tel:+919711671152'><i class='fa fa-phone'></i></a>
+                <a href = 'tel:+918800127535'><i class='fa fa-phone'></i></a>
               </div>
-              <h1>+05742-234561</h1>
-              <p>Telephone</p>
-            </div>
-            <div className='box'>
-              <div className='icon'>
-                <a href = 'tel:+919711671152'><i class='fa fa-phone'></i></a>
-              </div>
-              <h1>+05742-234561</h1>
-              <p>Telephone</p>
+              <h1>+91-8800-12-7535</h1>
+              <p>Mobile</p>
             </div>
           </div>
         </div>

@@ -1,0 +1,51 @@
+.social {
+    background-color: #1d1f3b;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .social .heading {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  
+  .social .heading p {
+    color: #ffbdbd;
+  }
+  
+  .social .heading h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  
+  .social .content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social .box {
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .social .icon {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: rgba(207, 248, 119, 0.737);
+    border-radius: 50%;
+    font-size: 22px;
+    color: #ffffff;
+    margin: auto;
+  }
+  
+  .social h1 {
+    font-size: 20px;
+  }
+  
+  .social p {
+    color: grey;
+  }
+  

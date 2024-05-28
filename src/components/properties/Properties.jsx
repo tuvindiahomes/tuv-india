@@ -12,7 +12,7 @@ const Properties = () => {
       <section className='recent padding'>
       <Back name='Ready to move?' title='Find your new home here...' cover={img} />
         <div className='container'>
-          {/* <Heading title='Properties for sale, purchase and rent' subtitle="" /> */}
+          {/* <Heading title='Properties for sale, purchase and lease' subtitle="" /> */}
           <RecentCard />
         </div>
       </section>

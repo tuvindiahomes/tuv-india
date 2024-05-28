@@ -23,10 +23,13 @@ const Header = () => {
             </ul>
           </div>
           <div className='button flex'>
-            
             <a href='tel:+919711671152' className='btn1'>
               <i className='fa fa-phone'></i>
               &nbsp;Call Us
+            </a>
+            <a href='mailto:tuvindiahomes@gmail.com' className='btn1'>
+              <i className='fa fa-envelope'></i>
+              &nbsp;Email Us
             </a>
           </div>
 

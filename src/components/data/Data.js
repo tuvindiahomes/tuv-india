@@ -11,10 +11,10 @@ export const nav = [
     text: "about",
     path: "/about",
   },
-  {
-    text: "services",
-    path: "/services",
-  },
+  // {
+  //   text: "services",
+  //   path: "/services",
+  // },
   // {
   //   text: "pricing",
   //   path: "/pricing",
