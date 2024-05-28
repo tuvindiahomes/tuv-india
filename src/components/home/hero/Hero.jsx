@@ -60,7 +60,7 @@ const Hero = () => {
             <div className="box">
               <input
                 type="text"
-                placeholder="Location"
+                placeholder="Search by location"
                 value={location}
                 onChange={handleLocationChange}
               />

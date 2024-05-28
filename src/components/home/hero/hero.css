@@ -19,7 +19,7 @@
   opacity: 0.8;
 }
 form {
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 5px;
   margin-top: 50px;
   padding: 0 20px;
@@ -27,13 +27,16 @@ form {
   margin: 0 auto;
   margin-top: 20px;
   width: max-content;
+  justify-content: center;
+  align-items: baseline;
 }
 form input {
-  padding: 11px;
+  padding: 16px;
+  background-color: #fff;
   border: 1px solid rgba(128, 128, 128, 0.2);
-  margin-top: 5px;
   border-radius: 5px;
   width: 500px;
+  vertical-align: middle;
 }
 form span {
   font-size: 14px;
