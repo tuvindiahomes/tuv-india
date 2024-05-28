@@ -16,7 +16,7 @@ const Footer = () => {
     </footer> */}
     <Social/>
       <div className='legal'>
-        <span>© Copyright tuvindiahomes.com. 2024 Comprehensive Property Portal in India. All Right Reserved. Designd By Jatin.</span>
+        <span>© Copyright tuvindiahomes.com<br></br>2024 Comprehensive Property Portal in India. <br></br>All Rights Reserved. <br></br>Designed By Tarun & Jatin.</span>
       </div>
     </>
   )
