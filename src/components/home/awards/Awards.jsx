@@ -16,9 +16,10 @@ const Awards = () => {
               <h1>T3-A1604, NX-ONE, Greater Noida West</h1>
               <p>Near Gaur Chowk</p>
               <br></br>
+              <br></br>
             </div>
           </div>
-          <Heading title='Directly Call Us On' subtitle='Or' />
+          <Heading title='Call Us On' subtitle='Or' />
           <div className='content grid4 mtop'>
             <div className='box'>
               <div className='icon'>
@@ -40,6 +41,20 @@ const Awards = () => {
               </div>
               <h1>+91-8800-12-7535</h1>
               <p>Mobile</p>
+            </div>
+          </div>
+          <br></br>
+          <br></br>
+          <Heading title='Mail Us On' subtitle='Or' />
+          <div className='content grid4 mtop'>
+            <div className='box'>
+              <div className='icon'>
+                <a href='mailto:tuvindiahomes@gmail.com' className='btn1'>
+                  <i className='fa fa-envelope'></i>
+                </a>
+              </div>
+              <h1>tuvindiahomes@gmail.com</h1>
+              <p>gmail</p>
             </div>
           </div>
         </div>
