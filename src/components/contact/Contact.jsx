@@ -73,7 +73,7 @@ const Contact = () => {
             onChange={handleChange}
           />
           </div>
-          <div>
+          <div class="input-container">
           <input
             type='text'
             name='mobile_number'
@@ -82,7 +82,7 @@ const Contact = () => {
             onChange={handleChange}
           />
           </div>
-          <div>
+          <div class="input-container">
           <input
             type='text'
             name='location'
