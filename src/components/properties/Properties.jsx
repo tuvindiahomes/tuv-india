@@ -1,6 +1,5 @@
 import React from "react"
 import Back from "../common/Back"
-import Heading from "../common/Heading"
 import img from "../images/properties.jpg"
 import "./Properties.css"
 import RecentCard from "../home/recent/RecentCard"
