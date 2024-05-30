@@ -1,0 +1,48 @@
+ .property-details-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .property-images {
+    width: 50%;
+  }
+  
+  .property-images img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .property-info {
+    width: 50%;
+  }
+  
+  .property-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .property-info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .property-location {
+    margin-bottom: 20px;
+  }
+  
+  .property-location h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .property-location p {
+    font-size: 16px;
+  }
+  
+  .property-video {
+    margin-bottom: 20px;
+  }
+  

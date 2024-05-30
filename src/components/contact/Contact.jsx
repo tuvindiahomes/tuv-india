@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./contact.css"
 import ScrollToTopOnMount from "../common/ScrollToTopOnMount.jsx";
+import Awards from "../home/awards/Awards.jsx";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -62,6 +63,7 @@ const Contact = () => {
   return (
   <>
     <ScrollToTopOnMount />
+    {/* <Awards/> */}
     <section className='contact mb'>
       <div className='container'>
         <form className='shadow' onSubmit={handleSubmit}>
@@ -97,8 +99,11 @@ const Contact = () => {
         </form>
       </div>
     </section>
+    <Awards/>
+    <section><br></br></section>
   </>
   );
 };
 
 export default Contact;
+

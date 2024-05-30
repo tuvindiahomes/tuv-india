@@ -36,6 +36,8 @@ const About = () => {
       <section className='services mb'>
       {/* <Back name='Connect With US' title='Fill out this form' cover={imgForm} /> */}
       <Awards/>
+      </section>
+      <section>
       <div className='featured container'>
       <Heading title='Connect with us' subtitle='Fill out this form. Our representatives will call you very shortly.'/>
         <Contact />

@@ -1,4 +1,4 @@
-.recent .text {
+/* .recent .text {
     padding: 30px;
   }
   .recent .category span {
@@ -19,4 +19,92 @@
     border-top: 1px solid #e4e8f3;
     padding: 10px 30px;
   }
-  
+   */
+
+   /* properties.css */
+.properties-grid {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.properties-grid .box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.properties-grid .box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.properties-grid .img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.properties-grid .text {
+  padding: 20px;
+}
+
+.properties-grid h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.properties-grid p {
+  font-size: 14px;
+  color: #666;
+}
+
+.properties-grid .category {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.properties-grid .category span {
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.properties-grid .category .fa-heart {
+  margin-left: auto;
+  color: #FF6B6B;
+}
+
+.properties-grid .button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.properties-grid .button button {
+  background-color: #FF6B6B;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.properties-grid .button button:hover {
+  background-color: #FF4D4D;
+}
+
+.properties-grid .button label {
+  font-size: 14px;
+  color: #666;
+}
+
+.properties-grid .button span {
+  font-size: 14px;
+  color: #666;
+}

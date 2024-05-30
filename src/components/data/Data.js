@@ -107,6 +107,256 @@ export const list = [
     type: "Apartment",
   },
 ]
+
+export const properties = [
+  {
+    id: 1,
+    cover: "../images/list/p-4.png",
+    name: "Beautiful Villa",
+    category: "For Sale",
+    type: "Homes & Villas",
+    price: "$500,000",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget eros quis lorem laoreet placerat.",
+    location: "Noida",
+    images: [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ],
+    coordinates: {
+      lat: 40.7128,
+      lng: -74.0060
+    }
+  },
+  {
+    id: 2,
+    cover: "../images/list/p-4.png",
+    name: "Beautiful Villa",
+    category: "For Sale",
+    type: "Homes & Villas",
+    price: "$500,000",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget eros quis lorem laoreet placerat.",
+    location: "Delhi",
+    images: [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ],
+    coordinates: {
+      lat: 40.7128,
+      lng: -74.0060
+    }
+  },
+  {
+    id: 3,
+    cover: "../images/list/p-4.png",
+    name: "Beautiful Villa",
+    category: "For Sale",
+    type: "Homes & Villas",
+    price: "$500,000",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget eros quis lorem laoreet placerat.",
+    location: "Gurugram",
+    images: [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ],
+    coordinates: {
+      lat: 40.7128,
+      lng: -74.0060
+    }
+  },
+  {
+    id: 4,
+    cover: "../images/list/p-4.png",
+    name: "Beautiful Villa",
+    category: "For Sale",
+    type: "Homes & Villas",
+    price: "$500,000",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget eros quis lorem laoreet placerat.",
+    location: "Noida",
+    images: [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ],
+    coordinates: {
+      lat: 40.7128,
+      lng: -74.0060
+    }
+  },
+  {
+    id: 5,
+    cover: "../images/list/p-4.png",
+    name: "Beautiful Villa",
+    category: "For Sale",
+    type: "Homes & Villas",
+    price: "$500,000",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget eros quis lorem laoreet placerat.",
+    location: "Delhi",
+    images: [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ],
+    coordinates: {
+      lat: 40.7128,
+      lng: -74.0060
+    }
+  },
+  {
+    id: 6,
+    cover: "../images/list/p-4.png",
+    name: "Beautiful Villa",
+    category: "For Sale",
+    type: "Homes & Villas",
+    price: "$500,000",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget eros quis lorem laoreet placerat.",
+    location: "Gurugram",
+    images: [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ],
+    coordinates: {
+      lat: 40.7128,
+      lng: -74.0060
+    }
+  },
+  {
+    id: 7,
+    cover: "../images/list/p-4.png",
+    name: "Beautiful Villa",
+    category: "For Sale",
+    type: "Homes & Villas",
+    price: "$500,000",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget eros quis lorem laoreet placerat.",
+    location: "Noida",
+    images: [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ],
+    coordinates: {
+      lat: 40.7128,
+      lng: -74.0060
+    }
+  },
+  {
+    id: 8,
+    cover: "../images/list/p-4.png",
+    name: "Beautiful Villa",
+    category: "For Sale",
+    type: "Homes & Villas",
+    price: "$500,000",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget eros quis lorem laoreet placerat.",
+    location: "Delhi",
+    images: [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ],
+    coordinates: {
+      lat: 40.7128,
+      lng: -74.0060
+    }
+  },
+  {
+    id: 9,
+    cover: "../images/list/p-4.png",
+    name: "Beautiful Villa",
+    category: "For Sale",
+    type: "Homes & Villas",
+    price: "$500,000",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget eros quis lorem laoreet placerat.",
+    location: "Gurugram",
+    images: [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ],
+    coordinates: {
+      lat: 40.7128,
+      lng: -74.0060
+    }
+  },
+  {
+    id: 10,
+    cover: "../images/list/p-4.png",
+    name: "Beautiful Villa",
+    category: "For Sale",
+    type: "Homes & Villas",
+    price: "$500,000",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget eros quis lorem laoreet placerat.",
+    location: "Gurugram",
+    images: [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ],
+    coordinates: {
+      lat: 40.7128,
+      lng: -74.0060
+    }
+  },
+  {
+    id: 11,
+    cover: "../images/list/p-4.png",
+    name: "Beautiful Villa",
+    category: "For Sale",
+    type: "Homes & Villas",
+    price: "$500,000",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget eros quis lorem laoreet placerat.",
+    location: "Gurugram",
+    images: [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ],
+    coordinates: {
+      lat: 40.7128,
+      lng: -74.0060
+    }
+  },
+  {
+    id: 12,
+    cover: "../images/list/p-4.png",
+    name: "Beautiful Villa",
+    category: "For Sale",
+    type: "Homes & Villas",
+    price: "$500,000",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget eros quis lorem laoreet placerat.",
+    location: "Gurugram",
+    images: [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ],
+    coordinates: {
+      lat: 40.7128,
+      lng: -74.0060
+    }
+  },
+  {
+    id: 13,
+    cover: "../images/list/p-4.png",
+    name: "Beautiful Villa",
+    category: "For Sale",
+    type: "Homes & Villas",
+    price: "$500,000",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget eros quis lorem laoreet placerat.",
+    location: "Gurugram",
+    images: [
+      "image1.jpg",
+      "image2.jpg",
+      "image3.jpg"
+    ],
+    coordinates: {
+      lat: 40.7128,
+      lng: -74.0060
+    }
+  },
+]
 export const awards = [
   {
     // icon: <i class='fa-solid fa-trophy'></i>,

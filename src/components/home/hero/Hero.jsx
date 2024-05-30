@@ -24,22 +24,102 @@
 // }
 
 // export default Hero
+
+
+
+
+// import React, { useState } from "react";
+// import Heading from "../../common/Heading";
+// import { list } from "../../data/Data"; // Importing the list from data.js
+// import "./hero.css";
+
+// const Hero = () => {
+//   const [location, setLocation] = useState("");
+//   const [searchResults, setSearchResults] = useState([]);
+
+//   const handleSearch = (e) => {
+//     e.preventDefault();
+//     const results = list.filter(item =>
+//       item.location.toLowerCase().includes(location.toLowerCase())
+//     );
+//     setSearchResults(results);
+//     console.log("Search results:", results);
+    
+//   };
+
+//   const handleLocationChange = (e) => {
+//     setLocation(e.target.value);
+//   };
+
+//   return (
+//     <>
+//       <section className="hero">
+//         <div className="container">
+//           <Heading
+//             title="Search Your Next Home"
+//             subtitle="Find new & featured property here or call us."
+//           />
+
+//           <form className="flex" onSubmit={handleSearch}>
+//             <div className="box">
+//               <input
+//                 type="text"
+//                 placeholder="Location"
+//                 value={location}
+//                 onChange={handleLocationChange}
+//               />
+//             </div>
+//             <button type="submit" className="btn1">
+//               <i className="fa fa-search"></i>
+//             </button>
+//           </form>
+
+//           {/* {searchResults.length > 0 && (
+//             <div className="search-results">
+//               <h2>Search Results</h2>
+//               <ul>
+//                 {searchResults.map((item) => (
+//                   <li key={item.id}>{item.location}</li>
+//                   // Render the desired UI for each search result item
+//                 ))}
+//               </ul>
+//             </div>
+//           )} */}
+//         </div>
+//       </section>
+//     </>
+//   );
+// };
+
+// export default Hero;
+
+
+
+
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom"; // Import useHistory from react-router-dom
 import Heading from "../../common/Heading";
-import { list } from "../../data/Data"; // Importing the list from data.js
+import { properties } from "../../data/Data";
 import "./hero.css";
 
 const Hero = () => {
+  const history = useHistory(); // Initialize useHistory
   const [location, setLocation] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
   const handleSearch = (e) => {
     e.preventDefault();
-    const results = list.filter(item =>
+    const results = properties.filter(item =>
       item.location.toLowerCase().includes(location.toLowerCase())
     );
     setSearchResults(results);
     console.log("Search results:", results);
+    // Pass the filtered list as a URL parameter when navigating
+    history.push({
+      pathname: '/properties',
+      state: { searchResults: results }
+    });
+    console.log("Search results sent to Properties:", results);
     setLocation("");
   };
 
@@ -69,18 +149,6 @@ const Hero = () => {
               <i className="fa fa-search"></i>
             </button>
           </form>
-
-          {/* {searchResults.length > 0 && (
-            <div className="search-results">
-              <h2>Search Results</h2>
-              <ul>
-                {searchResults.map((item) => (
-                  <li key={item.id}>{item.location}</li>
-                  // Render the desired UI for each search result item
-                ))}
-              </ul>
-            </div>
-          )} */}
         </div>
       </section>
     </>

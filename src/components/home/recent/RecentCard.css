@@ -1,0 +1,77 @@
+.recent-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-top: 40px;
+  }
+  
+  .card {
+    position: relative; /* Added */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-details {
+    padding: 20px;
+  }
+  
+  .category {
+    display: flex;
+    align-items: center;
+  }
+  
+  .category-tag {
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-weight: 700;
+  }
+  
+  .sale {
+    background-color: #25b5791a;
+    color: #25b579;
+  }
+  
+  .rent {
+    background-color: #ff98001a;
+    color: #ff9800;
+  }
+  
+  .heart-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .card-footer {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .price-btn {
+    background-color: #25b579;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .price-label {
+    margin-left: 5px;
+  }
+  
+  .type {
+    font-style: italic;
+  }
+  
